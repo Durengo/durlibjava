@@ -1,5 +1,9 @@
 package io.github.durengo;
 
+import io.github.durengo.input.Input;
+
+import static io.github.durengo.log.Log.*;
+
 /**
  * Hello world!
  *
@@ -8,6 +12,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        logger.info("Hello World!");
     }
 }

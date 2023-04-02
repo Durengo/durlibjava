@@ -4,11 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c5e2d78-a0cd-48f7-9e40-bcedf323eac6" name="Changes" comment="" />
+    <list default="true" id="7c5e2d78-a0cd-48f7-9e40-bcedf323eac6" name="Changes" comment="Initial Commit.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/durengo/connection/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/durengo/connection/ConnectionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/durengo/connection/MessageReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/durengo/connection/MessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/durengo/input/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/durengo/input/Validation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/durengo/log/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/durengo/utility/CsvUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/durengo/utility/HibernateUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/durengo/utility/JaxbUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/durengo/utility/JaxbUtilityOutputType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/durengo/utility/LocalDateAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/durengo/input/InputTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/durengo/input/ParseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/durengo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/durengo/App.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -27,10 +57,160 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Windows/System32/cmd.exe",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "6a451744f43c31f0e0b447a5d98018ad",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sebastiantermen\GIT\PERSONAL\durlib\src\main\java\io\github\durengo" />
+      <recent name="C:\Users\sebastiantermen\GIT\PERSONAL\durlib\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.Run">
+    <configuration name="JAR Run" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="io.github.durengo.App" />
+      <module name="durlib" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_Open External Terminal" />
+      </method>
+    </configuration>
+    <configuration name="ParseTest.testCanBePrimitiveInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="durlib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.durengo.input.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.durengo.input" />
+      <option name="MAIN_CLASS_NAME" value="io.github.durengo.input.ParseTest" />
+      <option name="METHOD_NAME" value="testCanBePrimitiveInvalid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseTest.testCanBePrimitiveValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="durlib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.durengo.input.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.durengo.input" />
+      <option name="MAIN_CLASS_NAME" value="io.github.durengo.input.ParseTest" />
+      <option name="METHOD_NAME" value="testCanBePrimitiveValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseTest.testOnlyFirstIsCapital_InvalidInput_ReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="durlib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.durengo.input.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.durengo.input" />
+      <option name="MAIN_CLASS_NAME" value="io.github.durengo.input.ParseTest" />
+      <option name="METHOD_NAME" value="testOnlyFirstIsCapital_InvalidInput_ReturnsFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseTest.testStringToPrimitiveTypeInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="durlib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.durengo.input.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.durengo.input" />
+      <option name="MAIN_CLASS_NAME" value="io.github.durengo.input.ParseTest" />
+      <option name="METHOD_NAME" value="testStringToPrimitiveTypeInvalid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParseTest.testStringToPrimitiveTypeValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="durlib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.durengo.input.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.durengo.input" />
+      <option name="MAIN_CLASS_NAME" value="io.github.durengo.input.ParseTest" />
+      <option name="METHOD_NAME" value="testStringToPrimitiveTypeValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="exec:java" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JAR Run" />
+      <item itemvalue="JUnit.ParseTest.testCanBePrimitiveInvalid" />
+      <item itemvalue="JUnit.ParseTest.testCanBePrimitiveValid" />
+      <item itemvalue="JUnit.ParseTest.testOnlyFirstIsCapital_InvalidInput_ReturnsFalse" />
+      <item itemvalue="JUnit.ParseTest.testStringToPrimitiveTypeInvalid" />
+      <item itemvalue="JUnit.ParseTest.testStringToPrimitiveTypeValid" />
+      <item itemvalue="Maven.Run" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ParseTest.testStringToPrimitiveTypeInvalid" />
+        <item itemvalue="JUnit.ParseTest.testStringToPrimitiveTypeValid" />
+        <item itemvalue="JUnit.ParseTest.testCanBePrimitiveInvalid" />
+        <item itemvalue="JUnit.ParseTest.testCanBePrimitiveValid" />
+        <item itemvalue="JUnit.ParseTest.testOnlyFirstIsCapital_InvalidInput_ReturnsFalse" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,7 +219,56 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680367844023</updated>
+      <workItem from="1680367845120" duration="6942000" />
+      <workItem from="1680382333629" duration="348000" />
+      <workItem from="1680382693024" duration="42000" />
+      <workItem from="1680383170980" duration="914000" />
+      <workItem from="1680433499845" duration="14197000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit.">
+      <created>1680368116262</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680368116262</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/github/durengo/input/Validation.java</url>
+          <line>7</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

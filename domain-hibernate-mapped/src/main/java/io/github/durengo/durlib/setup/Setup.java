@@ -150,7 +150,7 @@ public class Setup {
         Airspace airspace = new Airspace(1000.0, AirspaceClass.ClassDelta, 0);
         trafficControlTower.setAirspace(airspace);
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 5; i++) {
             trafficControlTower.getControlTowerOperatorList().add(controlTowerOperatorList.get(i));
         }
         airport1.setTrafficControlTower(trafficControlTower);
@@ -215,7 +215,15 @@ public class Setup {
 //        }
         for (Airplane plane : airplaneList) {
             while (airport1.getAirplaneList().size() < airport1.getSize().getAirplaneAmount()) {
+                if(airport1.getAirplaneList().size() > 3)
+                {
+                    break;
+                }
                 airport1.addAirplane(plane);
+            }
+            if(airport1.getAirplaneList().size() > 3)
+            {
+                break;
             }
         }
 

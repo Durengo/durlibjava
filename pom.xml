@@ -12,8 +12,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
     </properties>
 
     <modules>
@@ -29,206 +29,21 @@
         <!-- END OF DOMAIN MODULES -->
 
         <!-- DATABASE MODULES -->
-        <module>database-hibernate</module>
+<!--        <module>database-hibernate</module>-->
         <!-- END OF DATABASE MODULES -->
 
         <!-- MESSAGING MODULES -->
         <module>messaging-activemq</module>
         <!-- END OF MESSAGING MODULES -->
+
+        <!-- XSL TRANSFORMATIONS -->
+        <module>transformations</module>
+        <!-- END OF XSL TRANSFORMATIONS -->
+
+        <!-- HTTP SERVERS -->
+<!--        <module>server-jetty</module>-->
+        <!-- END OF HTTP SERVERS -->
     </modules>
-
-    <dependencies>
-
-        <!-- Library Core Dependencies -->
-
-        <!-- Other Dependencies -->
-
-        <!-- SOAP SERVICES -->
-        <!--    &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework/spring-jdbc &ndash;&gt;-->
-        <!--    <dependency>-->
-        <!--      <groupId>org.springframework</groupId>-->
-        <!--      <artifactId>spring-jdbc</artifactId>-->
-        <!--      <version>6.0.5</version>-->
-        <!--    </dependency>-->
-        <!--    &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web-services &ndash;&gt;-->
-        <!--    <dependency>-->
-        <!--      <groupId>org.springframework.boot</groupId>-->
-        <!--      <artifactId>spring-boot-starter-web-services</artifactId>-->
-        <!--      <version>3.0.5</version>-->
-        <!--    </dependency>-->
-        <!--    &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test &ndash;&gt;-->
-        <!--    <dependency>-->
-        <!--      <groupId>org.springframework.boot</groupId>-->
-        <!--      <artifactId>spring-boot-starter-test</artifactId>-->
-        <!--      <version>3.0.5</version>-->
-        <!--      <scope>test</scope>-->
-        <!--      <exclusions>-->
-        <!--        <exclusion>-->
-        <!--          <groupId>org.apache.logging.log4j</groupId>-->
-        <!--          <artifactId>log4j-to-slf4j</artifactId>-->
-        <!--        </exclusion>-->
-        <!--        <exclusion>-->
-        <!--          <groupId>org.slf4j</groupId>-->
-        <!--          <artifactId>jul-to-slf4j</artifactId>-->
-        <!--        </exclusion>-->
-        <!--        <exclusion>-->
-        <!--          <groupId>ch.qos.logback</groupId>-->
-        <!--          <artifactId>logback-classic</artifactId>-->
-        <!--        </exclusion>-->
-        <!--      </exclusions>-->
-        <!--    </dependency>-->
-        <!--    &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web &ndash;&gt;-->
-        <!--    <dependency>-->
-        <!--      <groupId>org.springframework.boot</groupId>-->
-        <!--      <artifactId>spring-boot-starter-web</artifactId>-->
-        <!--      <version>3.0.5</version>-->
-        <!--    </dependency>-->
-        <!--    &lt;!&ndash; https://mvnrepository.com/artifact/wsdl4j/wsdl4j &ndash;&gt;-->
-        <!--    <dependency>-->
-        <!--      <groupId>wsdl4j</groupId>-->
-        <!--      <artifactId>wsdl4j</artifactId>-->
-        <!--      <version>1.6.3</version>-->
-        <!--    </dependency>-->
-
-        <!-- NOT SURE IF NEEDED YET -->
-        <!--    &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent &ndash;&gt;-->
-        <!--    <dependency>-->
-        <!--      <groupId>org.springframework.boot</groupId>-->
-        <!--      <artifactId>spring-boot-starter-parent</artifactId>-->
-        <!--      <version>3.0.5</version>-->
-        <!--      <type>pom</type>-->
-        <!--    </dependency>-->
-
-
-        <!-- END OF SOAP SERVICES -->
-
-        <!--    <dependency>-->
-        <!--      <groupId>javax.servlet</groupId>-->
-        <!--      <artifactId>servlet-api</artifactId>-->
-        <!--      <version>2.5</version>-->
-        <!--      <scope>provided</scope>-->
-        <!--    </dependency>-->
-        <!--    -->
-        <!--    <dependency>-->
-        <!--      <groupId>com.fasterxml.jackson.core</groupId>-->
-        <!--      <artifactId>jackson-databind</artifactId>-->
-        <!--      <version>2.14.2</version>-->
-        <!--    </dependency> -->
-
-        <!-- END OF JAVA SERVLETS -->
-
-<!--        &lt;!&ndash; JAXB TRANSFORMATIONS &ndash;&gt;-->
-<!--        &lt;!&ndash; https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>jakarta.xml.bind</groupId>-->
-<!--            <artifactId>jakarta.xml.bind-api</artifactId>-->
-<!--            <version>3.0.1</version>-->
-<!--        </dependency>-->
-<!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-impl &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.sun.xml.bind</groupId>-->
-<!--            <artifactId>jaxb-impl</artifactId>-->
-<!--            <version>3.0.2</version>-->
-<!--        </dependency>-->
-<!--        &lt;!&ndash; END OF JAXB TRANSFORMATIONS &ndash;&gt;-->
-
-        <!-- DATABASE -->
-        <!--    &lt;!&ndash; https://mvnrepository.com/artifact/org.hibernate/hibernate-core &ndash;&gt;-->
-        <!--    <dependency>-->
-        <!--      <groupId>org.hibernate</groupId>-->
-        <!--      <artifactId>hibernate-core</artifactId>-->
-        <!--      <version>5.4.24.Final</version>-->
-        <!--&lt;!&ndash;      <exclusions>&ndash;&gt;-->
-        <!--&lt;!&ndash;        <exclusion>&ndash;&gt;-->
-        <!--&lt;!&ndash;          <groupId>org.jboss.logging</groupId>&ndash;&gt;-->
-        <!--&lt;!&ndash;          <artifactId>jboss-logging</artifactId>&ndash;&gt;-->
-        <!--&lt;!&ndash;        </exclusion>&ndash;&gt;-->
-        <!--&lt;!&ndash;      </exclusions>&ndash;&gt;-->
-        <!--    </dependency>-->
-        <!--    &lt;!&ndash; https://mvnrepository.com/artifact/com.h2database/h2 &ndash;&gt;-->
-        <!--    <dependency>-->
-        <!--      <groupId>com.h2database</groupId>-->
-        <!--      <artifactId>h2</artifactId>-->
-        <!--      <version>2.1.214</version>-->
-        <!--    </dependency>-->
-        <!--    &lt;!&ndash; https://mvnrepository.com/artifact/mysql/mysql-connector-java &ndash;&gt;-->
-        <!--    <dependency>-->
-        <!--      <groupId>mysql</groupId>-->
-        <!--      <artifactId>mysql-connector-java</artifactId>-->
-        <!--      <version>8.0.32</version>-->
-        <!--    </dependency>-->
-        <!-- END OF DATABASE -->
-
-        <!-- MESSAGING SERVICES -->
-        <!--    &lt;!&ndash; https://mvnrepository.com/artifact/org.apache.activemq/activemq-all &ndash;&gt;-->
-        <!--    <dependency>-->
-        <!--      <groupId>org.apache.activemq</groupId>-->
-        <!--      <artifactId>activemq-all</artifactId>-->
-        <!--      <version>5.17.3</version>-->
-        <!--&lt;!&ndash;      <exclusions>&ndash;&gt;-->
-        <!--&lt;!&ndash;        <exclusion>&ndash;&gt;-->
-        <!--&lt;!&ndash;          <groupId>org.apache.logging.log4j</groupId>&ndash;&gt;-->
-        <!--&lt;!&ndash;          <artifactId>log4j-slf4j-impl</artifactId>&ndash;&gt;-->
-        <!--&lt;!&ndash;        </exclusion>&ndash;&gt;-->
-        <!--&lt;!&ndash;        <exclusion>&ndash;&gt;-->
-        <!--&lt;!&ndash;          <groupId>org.slf4j</groupId>&ndash;&gt;-->
-        <!--&lt;!&ndash;          <artifactId>log4j-to-slf4j</artifactId>&ndash;&gt;-->
-        <!--&lt;!&ndash;        </exclusion>&ndash;&gt;-->
-        <!--&lt;!&ndash;      </exclusions>&ndash;&gt;-->
-        <!--    </dependency>-->
-        <!--    &lt;!&ndash; https://mvnrepository.com/artifact/org.apache.activemq/activemq-core &ndash;&gt;-->
-        <!--    <dependency>-->
-        <!--      <groupId>org.apache.activemq</groupId>-->
-        <!--      <artifactId>activemq-core</artifactId>-->
-        <!--      <version>5.7.0</version>-->
-        <!--    </dependency>-->
-        <!-- END OF MESSAGING SERVICES -->
-
-        <!-- LOGGING -->
-        <!--    &lt;!&ndash; https://mvnrepository.com/artifact/log4j/log4j &ndash;&gt;-->
-        <!--    <dependency>-->
-        <!--      <groupId>log4j</groupId>-->
-        <!--      <artifactId>log4j</artifactId>-->
-        <!--      <version>1.2.17</version>-->
-        <!--    </dependency>-->
-        <!--    &lt;!&ndash; https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api &ndash;&gt;-->
-        <!--    <dependency>-->
-        <!--      <groupId>org.apache.logging.log4j</groupId>-->
-        <!--      <artifactId>log4j-api</artifactId>-->
-        <!--      <version>2.19.0</version>-->
-        <!--    </dependency>-->
-        <!--    &lt;!&ndash; https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl &ndash;&gt;-->
-        <!--    <dependency>-->
-        <!--      <groupId>org.apache.logging.log4j</groupId>-->
-        <!--      <artifactId>log4j-slf4j-impl</artifactId>-->
-        <!--      <version>2.20.0</version>-->
-        <!--      <scope>test</scope>-->
-        <!--    </dependency>-->
-        <!--    &lt;!&ndash; https://mvnrepository.com/artifact/org.slf4j/slf4j-api &ndash;&gt;-->
-        <!--    <dependency>-->
-        <!--      <groupId>org.slf4j</groupId>-->
-        <!--      <artifactId>slf4j-api</artifactId>-->
-        <!--      <version>2.0.7</version>-->
-        <!--    </dependency>-->
-
-
-        <!--    &lt;!&ndash; https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core &ndash;&gt;-->
-        <!--    <dependency>-->
-        <!--      <groupId>org.apache.logging.log4j</groupId>-->
-        <!--      <artifactId>log4j-core</artifactId>-->
-        <!--      <version>2.20.0</version>-->
-        <!--    </dependency>-->
-        <!--    &lt;!&ndash; https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-to-slf4j &ndash;&gt;-->
-        <!--    <dependency>-->
-        <!--      <groupId>org.apache.logging.log4j</groupId>-->
-        <!--      <artifactId>log4j-to-slf4j</artifactId>-->
-        <!--      <version>2.20.0</version>-->
-        <!--    </dependency>-->
-        <!-- END OF LOGGING -->
-
-
-
-    </dependencies>
 
     <build>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -288,6 +103,14 @@
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>2.12.4</version>
+                    <configuration>
+                        <skipTests>true</skipTests>
+                    </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>

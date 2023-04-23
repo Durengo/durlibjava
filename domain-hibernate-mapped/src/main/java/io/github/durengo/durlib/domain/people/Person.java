@@ -4,6 +4,8 @@ import io.github.durengo.durlib.jaxb.LocalDateAdapter;
 import jakarta.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import jakarta.xml.bind.annotation.*;
+import org.hibernate.annotations.GenericGenerator;
+
 import javax.persistence.*;
 import java.time.LocalDate;
 

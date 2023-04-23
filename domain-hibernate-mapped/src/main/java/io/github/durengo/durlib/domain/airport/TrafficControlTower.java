@@ -1,6 +1,7 @@
 package io.github.durengo.durlib.domain.airport;
 
 import io.github.durengo.durlib.domain.people.ControlTowerOperator;
+import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.LazyCollection;
 import org.hibernate.annotations.LazyCollectionOption;
 

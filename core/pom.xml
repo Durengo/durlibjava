@@ -10,9 +10,9 @@
     <packaging>jar</packaging>
 
     <properties>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -27,12 +27,12 @@
         <!-- END OF TESTING -->
 
         <!-- TERMINAL/INPUT -->
-<!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.jline/jline &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>org.jline</groupId>-->
-<!--            <artifactId>jline</artifactId>-->
-<!--            <version>3.23.0</version>-->
-<!--        </dependency>-->
+        <!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.jline/jline &ndash;&gt;-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.jline</groupId>-->
+        <!--            <artifactId>jline</artifactId>-->
+        <!--            <version>3.23.0</version>-->
+        <!--        </dependency>-->
         <!-- END OF TERMINAL/INPUT -->
 
         <!-- LOGGING -->
@@ -54,6 +54,20 @@
             <artifactId>log4j-web</artifactId>
             <version>2.20.0</version>
         </dependency>
+        <!-- THE FOLLOWING DEPENDENCIES MIGHT BREAK PROJECTS -->
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.slf4j/jul-to-slf4j &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.slf4j</groupId>-->
+<!--            <artifactId>jul-to-slf4j</artifactId>-->
+<!--            <version>2.0.7</version>-->
+<!--        </dependency>-->
+
+        <!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j2-impl &ndash;&gt;-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.apache.logging.log4j</groupId>-->
+        <!--            <artifactId>log4j-slf4j2-impl</artifactId>-->
+        <!--            <version>2.20.0</version>-->
+        <!--        </dependency>-->
         <!-- END OF LOGGING -->
     </dependencies>
 

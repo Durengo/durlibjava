@@ -1,6 +1,8 @@
 package io.github.durengo.durlib.domain.airport;
 
 import jakarta.xml.bind.annotation.*;
+import org.hibernate.annotations.GenericGenerator;
+
 import javax.persistence.*;
 
 /**

@@ -4,6 +4,7 @@ import io.github.durengo.durlib.domain.airplane.Airplane;
 import io.github.durengo.durlib.domain.people.ControlTowerOperator;
 import io.github.durengo.durlib.domain.people.CrewMember;
 import io.github.durengo.durlib.domain.people.Passenger;
+import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.LazyCollection;
 import org.hibernate.annotations.LazyCollectionOption;
 

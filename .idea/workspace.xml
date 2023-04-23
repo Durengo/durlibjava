@@ -5,101 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c5e2d78-a0cd-48f7-9e40-bcedf323eac6" name="Changes" comment="Initial durlib java library.">
-      <change afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/io/github/durengo/durlib/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/io/github/durengo/durlib/log/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database-hibernate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database-hibernate/src/main/java/io/github/durengo/durlib/hibernate/HibernateUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/java/io/github/durengo/durlib/domain/airplane/Airplane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/java/io/github/durengo/durlib/domain/airplane/AirplaneType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/java/io/github/durengo/durlib/domain/airport/Airport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/java/io/github/durengo/durlib/domain/airport/AirportSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/java/io/github/durengo/durlib/domain/airport/Airspace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/java/io/github/durengo/durlib/domain/airport/AirspaceClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/java/io/github/durengo/durlib/domain/airport/Runway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/java/io/github/durengo/durlib/domain/airport/Telemetry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/java/io/github/durengo/durlib/domain/airport/TrafficControlTower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/java/io/github/durengo/durlib/domain/people/ControlTowerOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/java/io/github/durengo/durlib/domain/people/CrewMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/java/io/github/durengo/durlib/domain/people/CrewMemberType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/java/io/github/durengo/durlib/domain/people/Luggage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/java/io/github/durengo/durlib/domain/people/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/java/io/github/durengo/durlib/domain/people/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/java/io/github/durengo/durlib/domain/people/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/java/io/github/durengo/durlib/setup/Setup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/resources/Airport.dtd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/resources/Airport.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/resources/csv_data/CrewMemberBasic.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/resources/csv_data/Luggage.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/resources/csv_data/PassengersBasic.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/resources/csv_data/Telemetry.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-core/src/main/resources/csv_data/Telemetry2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airplane/Airplane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airplane/AirplaneType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airport/Airport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airport/AirportSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airport/Airspace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airport/AirspaceClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airport/Runway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airport/Telemetry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airport/TrafficControlTower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/people/ControlTowerOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/people/CrewMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/people/CrewMemberType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/people/Luggage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/people/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/people/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/people/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/setup/Setup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/resources/Airport.dtd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/resources/Airport.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/resources/csv_data/CrewMemberBasic.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/resources/csv_data/Luggage.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/resources/csv_data/PassengersBasic.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/resources/csv_data/Telemetry.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/resources/csv_data/Telemetry2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/java/io/github/durengo/durlib/Hibernate/DatabaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/java/io/github/durengo/durlib/Jaxb/JaxbTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/java/io/github/durengo/durlib/Parse/CsvTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/resources/Airport.dtd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/resources/Airport.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/resources/main_big_example.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/resources/main_example.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/resources/small.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/resources/small_dtd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/resources/test_small.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jaxb/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messaging-activemq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messaging-activemq/src/main/java/io/github/durengo/durlib/connection/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messaging-activemq/src/main/java/io/github/durengo/durlib/connection/ConnectionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messaging-activemq/src/main/java/io/github/durengo/durlib/connection/MessageReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messaging-activemq/src/main/java/io/github/durengo/durlib/connection/MessageSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messaging-activemq/src/test/java/io/github/durengo/durlib/connection/MessageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parse/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database-hibernate/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database-hibernate/src/main/java/io/github/durengo/durlib/hibernate/HibernateUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-core/src/main/resources/csv_data/CrewMemberBasic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/domain-core/src/main/resources/csv_data/CrewMemberBasic.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-core/src/main/resources/csv_data/Telemetry.csv" beforeDir="false" afterPath="$PROJECT_DIR$/domain-core/src/main/resources/csv_data/Telemetry.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-core/src/main/resources/csv_data/Telemetry2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/domain-core/src/main/resources/csv_data/Telemetry2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airplane/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airplane/Airplane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airport/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airport/Airport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airport/Airspace.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airport/Airspace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airport/Runway.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airport/Runway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airport/Telemetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airport/Telemetry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airport/TrafficControlTower.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/airport/TrafficControlTower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/people/Luggage.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/people/Luggage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/people/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/people/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/people/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/domain/people/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/setup/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/java/io/github/durengo/durlib/setup/Setup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/resources/csv_data/CrewMemberBasic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/resources/csv_data/CrewMemberBasic.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/resources/csv_data/Telemetry.csv" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/resources/csv_data/Telemetry.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/resources/csv_data/Telemetry2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/main/resources/csv_data/Telemetry2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/java/io/github/durengo/durlib/Hibernate/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/java/io/github/durengo/durlib/Hibernate/DatabaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/java/io/github/durengo/durlib/Jaxb/JaxbTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/java/io/github/durengo/durlib/Jaxb/JaxbTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/java/io/github/durengo/durlib/Parse/CsvTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/java/io/github/durengo/durlib/Parse/CsvTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/resources/main_big_example.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/resources/main_big_example.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/resources/main_example.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/resources/main_example.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/resources/small.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/resources/small.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/resources/small_dtd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/resources/small_dtd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/resources/test_small.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain-hibernate-mapped/src/test/resources/test_small.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaxb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jaxb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-activemq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-activemq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-activemq/src/test/java/io/github/durengo/durlib/connection/MessageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-activemq/src/test/java/io/github/durengo/durlib/connection/MessageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parse/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/durengo/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/durengo/connection/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/temp/connection/Connection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/durengo/connection/ConnectionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/temp/connection/ConnectionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/durengo/connection/MessageReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/temp/connection/MessageReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/durengo/connection/MessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/temp/connection/MessageSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/durengo/input/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/io/github/durengo/durlib/input/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/durengo/input/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/io/github/durengo/durlib/input/Validation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/durengo/log/Log.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/durengo/utility/CsvUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/parse/src/main/java/io/github/durengo/durlib/parse/CsvUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/durengo/utility/HibernateUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/temp/utility/HibernateUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/durengo/utility/JaxbUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaxb/src/main/java/io/github/durengo/durlib/jaxb/JaxbUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/durengo/utility/JaxbUtilityOutputType.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaxb/src/main/java/io/github/durengo/durlib/jaxb/JaxbUtilityOutputType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/durengo/utility/LocalDateAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/jaxb/src/main/java/io/github/durengo/durlib/jaxb/LocalDateAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/durengo/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/durengo/input/InputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/io/github/durengo/durlib/input/InputTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/durengo/input/ParseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/io/github/durengo/durlib/input/ParseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/connection/Connection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/connection/ConnectionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/connection/MessageReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/connection/MessageSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/utility/HibernateUtility.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +66,11 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -130,27 +83,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/sebastiantermen/GIT/PERSONAL/durlib/domain-hibernate-mapped/src/test/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "6a451744f43c31f0e0b447a5d98018ad",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sebastiantermen/GIT/PERSONAL/durlib/domain-hibernate-mapped/src/test/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6a451744f43c31f0e0b447a5d98018ad&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sebastiantermen\GIT\PERSONAL\durlib\domain-hibernate-mapped\src\test\resources" />

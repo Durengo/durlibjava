@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+        <Properties>
+            <Property name="LOG_FATAL_COLOR">
+                red blink
+            </Property>
+            <Property name="LOG_ERROR_COLOR">
+                red
+            </Property>
+            <Property name="LOG_WARN_COLOR">
+                yellow bold
+            </Property>
+            <Property name="LOG_INFO_COLOR">
+                green
+            </Property>
+            <Property name="LOG_DEBUG_COLOR">
+                blue bold
+            </Property>
+            <Property name="LOG_TRACE_COLOR">
+                normal
+            </Property>
+            <Property name="LOG_COLORS">
+                {FATAL=${LOG_FATAL_COLOR}, ERROR=${LOG_ERROR_COLOR}, WARN=${LOG_WARN_COLOR}, INFO=${LOG_INFO_COLOR}, DEBUG=${LOG_DEBUG_COLOR}, TRACE=${LOG_TRACE_COLOR}}
+            </Property>
+            <Property name="LOG_PATTERN">
+                %highlight{%d{HH:mm:ss.SSS} %-5level %logger{36}.%M() @%L - %msg%n}${LOG_COLORS}
+            </Property>
+        </Properties>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout disableAnsi="false" pattern="${LOG_PATTERN}"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="TRACE">
+            <AppenderRef ref="Console"/>
+        </Root>
+        <Logger name="io.github.durengo.durlib" level="TRACE">
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <Logger name="org.springframework.boot" level="DEBUG">
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <Logger name="org.springframework.beans" level="DEBUG">
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <Logger name="org.springframework.context" level="DEBUG">
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <Logger name="org.springframework.core" level="DEBUG">
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <Logger name="org.springframework.util" level="DEBUG">
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <!-- HIBERNATE LOGGING -->
+        <Logger name="org.hibernate" level="DEBUG">
+            <AppenderRef ref="Console"/>
+        </Logger>
+<!--        <Logger name="org.hibernate.SQL" level="debug" additivity="false">-->
+<!--            <AppenderRef ref="Console-Appender"/>-->
+<!--        </Logger>-->
+<!--        <Logger name="org.hibernate.type.descriptor.sql" level="trace" additivity="false">-->
+<!--            <AppenderRef ref="Console-Appender"/>-->
+<!--        </Logger>-->
+<!--        <Logger name="org.hibernate.stat" level="trace" additivity="false">-->
+<!--            <AppenderRef ref="Console-Appender"/>-->
+<!--        </Logger>-->
+<!--        <Logger name="org.hibernate.SQL_SLOW" level="trace" additivity="false">-->
+<!--            <AppenderRef ref="Console-Appender"/>-->
+<!--        </Logger>-->
+<!--        <Logger name="org.hibernate.cache" level="trace" additivity="false">-->
+<!--            <AppenderRef ref="Console-Appender"/>-->
+<!--        </Logger>-->
+        <!-- END HIBERNATE LOGGING -->
+    </Loggers>
+</Configuration>

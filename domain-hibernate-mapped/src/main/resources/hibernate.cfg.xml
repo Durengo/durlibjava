@@ -17,17 +17,17 @@
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
         <property name="hbm2ddl.auto">update</property>
-        <mapping class="io.github.durengo.durlib.domain.airport.Airport" />
-        <mapping class="io.github.durengo.durlib.domain.airport.Airspace" />
-        <mapping class="io.github.durengo.durlib.domain.airport.Runway" />
-        <mapping class="io.github.durengo.durlib.domain.airport.Telemetry" />
-        <mapping class="io.github.durengo.durlib.domain.airport.TrafficControlTower" />
-        <mapping class="io.github.durengo.durlib.domain.airplane.Airplane" />
-        <mapping class="io.github.durengo.durlib.domain.people.Person" />
-        <mapping class="io.github.durengo.durlib.domain.people.ControlTowerOperator" />
-        <mapping class="io.github.durengo.durlib.domain.people.CrewMember" />
-        <mapping class="io.github.durengo.durlib.domain.people.Luggage" />
-        <mapping class="io.github.durengo.durlib.domain.people.Passenger" />
-        <mapping class="io.github.durengo.durlib.domain.people.Ticket" />
+        <mapping class="airport.io.github.durengo.durlib.Airport" />
+        <mapping class="airport.io.github.durengo.durlib.Airspace" />
+        <mapping class="airport.io.github.durengo.durlib.Runway" />
+        <mapping class="airport.io.github.durengo.durlib.Telemetry" />
+        <mapping class="airport.io.github.durengo.durlib.TrafficControlTower" />
+        <mapping class="airplane.io.github.durengo.durlib.Airplane" />
+        <mapping class="people.io.github.durengo.durlib.Person" />
+        <mapping class="people.io.github.durengo.durlib.ControlTowerOperator" />
+        <mapping class="people.io.github.durengo.durlib.CrewMember" />
+        <mapping class="people.io.github.durengo.durlib.Luggage" />
+        <mapping class="people.io.github.durengo.durlib.Passenger" />
+        <mapping class="people.io.github.durengo.durlib.Ticket" />
     </session-factory>
 </hibernate-configuration>

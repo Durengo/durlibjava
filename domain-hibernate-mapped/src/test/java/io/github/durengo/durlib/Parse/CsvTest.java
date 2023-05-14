@@ -1,11 +1,8 @@
 package io.github.durengo.durlib.Parse;
 
-import io.github.durengo.durlib.domain.people.Passenger;
-import io.github.durengo.durlib.parse.CsvUtility;
-import org.apache.commons.csv.CSVRecord;
+import io.github.durengo.durlib.people.Passenger;
 import org.junit.Test;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 

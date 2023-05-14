@@ -1,7 +1,7 @@
 package io.github.durengo.durlib.hibernate;
 
-import io.github.durengo.durlib.domain.airplane.Airplane;
-import io.github.durengo.durlib.domain.airport.*;
+import io.github.durengo.durlib.airport.Airport;
+import io.github.durengo.durlib.airport.Telemetry;
 import org.h2.tools.Server;
 import org.hibernate.Hibernate;
 import org.hibernate.Session;

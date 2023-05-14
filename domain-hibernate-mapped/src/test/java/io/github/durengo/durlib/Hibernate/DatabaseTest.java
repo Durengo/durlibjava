@@ -1,24 +1,13 @@
 package io.github.durengo.durlib.Hibernate;
 
-import io.github.durengo.durlib.domain.airplane.Airplane;
-import io.github.durengo.durlib.domain.airplane.AirplaneType;
-import io.github.durengo.durlib.domain.airport.*;
-import io.github.durengo.durlib.domain.people.*;
-import io.github.durengo.durlib.hibernate.HibernateUtility;
-import io.github.durengo.durlib.jaxb.JaxbUtility;
-import io.github.durengo.durlib.jaxb.JaxbUtilityOutputType;
-import io.github.durengo.durlib.parse.CsvUtility;
-import io.github.durengo.durlib.setup.Setup;
-import org.hibernate.HibernateException;
+import io.github.durengo.durlib.airplane.Airplane;
+import io.github.durengo.durlib.airplane.AirplaneType;
+import io.github.durengo.durlib.airport.*;
+import io.github.durengo.durlib.people.*;
 import org.junit.Test;
 
 import java.io.IOException;
-import java.io.StringWriter;
 import java.net.URISyntaxException;
-import java.net.URL;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.sql.Date;
 import java.time.Instant;
 import java.util.ArrayList;

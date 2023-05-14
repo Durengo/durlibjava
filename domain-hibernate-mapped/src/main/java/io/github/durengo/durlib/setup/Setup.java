@@ -1,9 +1,10 @@
 package io.github.durengo.durlib.setup;
 
-import io.github.durengo.durlib.domain.airport.*;
-import io.github.durengo.durlib.domain.airplane.*;
-import io.github.durengo.durlib.domain.people.*;
+import io.github.durengo.durlib.airplane.Airplane;
+import io.github.durengo.durlib.airplane.AirplaneType;
+import io.github.durengo.durlib.airport.*;
 import io.github.durengo.durlib.parse.CsvUtility;
+import io.github.durengo.durlib.people.*;
 import org.apache.commons.csv.CSVRecord;
 
 import java.net.URL;
